@@ -7,9 +7,6 @@ const existingButton = document.getElementById('existing');
 // On page load, check if there are stored login details
 if (localStorage.getItem('username') && localStorage.getItem('password')) {
   // Populate the input fields with the stored login details
-  usernameInput.value = localStorage.getItem('username');
-  passwordInput.value = localStorage.getItem('password');
-  rememberCheckbox.checked = true;
 
   // Show the "Login as existing user" button
   existingButton.style.display = 'block';
