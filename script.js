@@ -9,7 +9,7 @@ if (localStorage.getItem('username') && localStorage.getItem('password')) {
   // Populate the input fields with the stored login details
 
   // Show the "Login as existing user" button
-existingButton.style.visiblity = "visible"
+	existingButton.style.visiblity = "visible"
 }
 
 
