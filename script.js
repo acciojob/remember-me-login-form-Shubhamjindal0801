@@ -35,5 +35,4 @@ form.addEventListener('submit', function(e) {
 	alert(`Logged in as ${usernameInput.value}`)
 
   // Show the "Login as existing user" button
-  existingButton.style.display = 'block';
 });
