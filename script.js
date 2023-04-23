@@ -9,8 +9,12 @@ if (localStorage.getItem('username') && localStorage.getItem('password')) {
   // Populate the input fields with the stored login details
 
   // Show the "Login as existing user" button
-  existingButton.style.display = 'block';
+const existingButton = document.createElement('button');
+existingButton.id = 'existing';
+existingButton.innerText = 'Login as existing user';
+form.appendChild(existingButton);
 }
+
 
 // Add an event listener to the form on submit
 form.addEventListener('submit', function(e) {
